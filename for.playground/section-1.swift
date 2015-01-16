@@ -11,5 +11,5 @@ for (var i=0 ; i < array1.count; i++){
 var array2 = ["a","b","c"]
 var str=""
 for str in array2 {
-    println(str)
-}
+    println(str)}
+     println(array2.count)

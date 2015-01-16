@@ -19,4 +19,7 @@ shoppingList
 
 let possibeTipsInferred = [0.15,0.18,0.20]
 let possibleTipsExplicit:[Double] = [0.15,0.18,0.20]
-ver numberOfItems = possibeTipsInferred.count
+var numberOfItems = possibeTipsInferred.count
+
+var array1 = ["abc","bsc","cdf"]
+for (var i=0; i < array1.c)

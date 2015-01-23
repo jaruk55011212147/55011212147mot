@@ -32,8 +32,19 @@ class tipclculator {
             
             retval[intPct] = calctipwithtippct(possibletip)
         }
-        return retval
-        
+        func returnpossibletips() -> [Int: Double]{
+            
+            
+            let possibletipsinterferred:[Double] = [0.15, 0.18, 0.20]
+            
+            var retval =Dictionary<Int, Double>()
+            for possibletip in possibletipsinterferred{
+                let intPct = Int(possibleyip*100)
+                
+                retval[intPct] = calctipwithtipct(possibletip)
+            }
+            return return
+        }
     }
 
 }

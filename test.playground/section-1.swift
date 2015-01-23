@@ -7,7 +7,7 @@ var str = "Hello, playground"
 class tipclculator {
     let total: Double
     let taxPct: Double
-    let subtotal: Double
+    let subtotal: Double                        
     
     
     init(total:Double,taxPct:Double){
@@ -39,3 +39,4 @@ class tipclculator {
 
 let tipcalc = tipclculator(total: 33.25, taxPct: 0.06)
 tipcalc.returnpossibletips()
+ 

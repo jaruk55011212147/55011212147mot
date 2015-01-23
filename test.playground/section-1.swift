@@ -21,32 +21,21 @@ class tipclculator {
         return subtotal * tipPct
     }
     
-    func retornPassibleTip() -> [Int: Double]{
-    let possibletipsinterferred = [0.15, 0.18, 0.20]
-        let possibletipsexplicit:[Double] = [0.15, 0.18, 0.20]
-        var number0ftrms = possibletipsinterferred.count
-        
-        var retval = [Int: Double]()
-        for possibletip in possibletipsinterferred {
-            let intPct = Int(possibletip*100)
-            
-            retval[intPct] = calctipwithtippct(possibletip)
-        }
-        func returnpossibletips() -> [Int: Double]{
+           func returnpossibletips() -> [Int: Double]{
             
             
             let possibletipsinterferred:[Double] = [0.15, 0.18, 0.20]
             
-            var retval =Dictionary<Int, Double>()
+            var retval = Dictionary<Int, Double>()
             for possibletip in possibletipsinterferred{
-                let intPct = Int(possibleyip*100)
+                let intPct = Int(possibletip*100)
                 
-                retval[intPct] = calctipwithtipct(possibletip)
+                retval[intPct] = calctipwithtippct(possibletip)
             }
-            return return
+            return retval
         }
-    }
 
 }
+
 let tipcalc = tipclculator(total: 33.25, taxPct: 0.06)
-tipcalc.retornPassibleTip()
+tipcalc.returnpossibletips()

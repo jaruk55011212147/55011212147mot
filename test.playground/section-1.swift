@@ -36,5 +36,6 @@ class tipclculator {
         
     }
 
-    
 }
+let tipcalc = tipclculator(total: 33.25, taxPct: 0.06)
+tipcalc.retornPassibleTip()

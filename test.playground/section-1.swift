@@ -28,7 +28,7 @@ class tipclculator {
         
         var retval = [Int: Double]()
         for possibletip in possibletipsinterferred {
-            let intPct = inT(possibletip*100)
+            let intPct = Int(possibletip*100)
             
             retval[intPct] = calctipwithtippct(possibletip)
         }

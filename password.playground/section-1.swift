@@ -19,6 +19,11 @@ var str = "Hello, playground"
             return false;
         }
     }
+    func add(adduser:String,addpasswd:String){
+    username[username]= addpasswd
+    }
+
+    
 }
 var user = usernameTest(username: "Kakmote", password: "motepentood");
 user.searchUsername()

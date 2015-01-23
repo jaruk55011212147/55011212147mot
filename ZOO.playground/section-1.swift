@@ -5,7 +5,7 @@ class zoo {
   func zoo1() -> String {
         
          let animal = ["dog","cat","bat"]
-        let food = ["vitgut","fisf","kill"]
+         let food = ["vitgut","fisf","kill"]
     
         var feed: String = ""
         
@@ -13,6 +13,7 @@ class zoo {
             
                if(animal[i] == animal1){
                 feed = food[i];
+                
             }
             
         }

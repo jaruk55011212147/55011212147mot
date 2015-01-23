@@ -22,7 +22,13 @@ var str = "Hello, playground"
     func add(adduser:String,addpasswd:String){
     username[username]= addpasswd
     }
-
+    func Del(del:String){
+        username[del] = nil
+        
+    }
+    func Edit(edit:String, passeedit:String){
+        password[edit]=passeedit
+    }
     
 }
 var user = usernameTest(username: "Kakmote", password: "motepentood");

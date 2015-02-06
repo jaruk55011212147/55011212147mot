@@ -24,6 +24,7 @@ class Caculater {
             break;
             
         case "/":
+            
             println("Your answer is  \(num1 / num2)");
             break;
             
@@ -41,4 +42,4 @@ class Caculater {
     
 }
 let cu = Caculater(num1In:45.5,num2In:50.5)
-cu.cal("*")
+cu.cal("-")

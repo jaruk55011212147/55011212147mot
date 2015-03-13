@@ -45,9 +45,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10417708_421668457989141_6267525572408617959_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="p2p-MG-ZF4">
-                                <rect key="frame" x="175" y="373" width="240" height="128"/>
-                            </imageView>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="6" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="Xh3-9g-bmb">
                                 <rect key="frame" x="206" y="110" width="272" height="31"/>
                                 <connections>
@@ -59,6 +56,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10417708_421668457989141_6267525572408617959_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="p2p-MG-ZF4">
+                                <rect key="frame" x="147" y="382" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.16078431904315948" green="0.88627457618713379" blue="0.97647064924240112" alpha="1" colorSpace="deviceRGB"/>

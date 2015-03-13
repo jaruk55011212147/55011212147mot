@@ -38,17 +38,8 @@ class ViewController: UIViewController {
         var  p = Int((poin.text as NSString).integerValue)
         var f1 = Int((final1.text as  NSString).integerValue)
         var f2 = Double((final2.text as NSString).doubleValue)
-    }
-    func sium(){
-        var sum0 = midtrem1.text
-        var sum1 = midtram2.text
-        var sum2 = poin.text
-        var sum3 = final1.text
-        var sum4 = final2.text
-        var sum5 = sum0+sum1+sum2+sum3+sum4
-          gread.text = sum5
 }
-        func cal(sum5:Double){
+    func cal(sum5:Double){
             
             if(sum5 >= 80){
               gread2 == "A"

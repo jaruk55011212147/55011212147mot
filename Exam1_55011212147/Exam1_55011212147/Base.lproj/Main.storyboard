@@ -21,7 +21,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="inputlang:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="JxJ-M9-FfQ"/>
                                     <action selector="leng:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="NS5-Ir-31p"/>
                                 </connections>
                             </textField>
@@ -139,7 +138,6 @@
                         <outlet property="gread2" destination="hi7-G3-EPn" id="JAy-8c-zRu"/>
                         <outlet property="kum" destination="4nY-hH-pKh" id="Sds-kS-fb8"/>
                         <outlet property="leng" destination="ow1-ix-aL2" id="iJi-DU-fdv"/>
-                        <outlet property="leng1" destination="ow1-ix-aL2" id="NDM-0W-H2V"/>
                         <outlet property="midtram2" destination="5Rg-rR-KUJ" id="EIV-kV-yPK"/>
                         <outlet property="midtrem1" destination="W5O-c6-bWq" id="WYM-hx-WYD"/>
                         <outlet property="poin" destination="eZd-VP-hdd" id="Boy-Am-Ple"/>

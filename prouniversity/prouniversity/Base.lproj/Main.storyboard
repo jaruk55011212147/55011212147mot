@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Lta-je-ePz">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="prouniversity" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jey-XG-KI7">
+                                <rect key="frame" x="49" y="101" width="278" height="179"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="มหาลัย มหาสารคาม " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4o-a2-jH1">
+                                <rect key="frame" x="104" y="305" width="168" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uri-C0-n2h">
+                                <rect key="frame" x="8" y="361" width="354" height="44"/>
+                                <items>
+                                    <navigationItem title="ประวัติ ของมหาลัย" id="oXl-w9-eoi">
+                                        <barButtonItem key="rightBarButtonItem" title="ดู" id="q4r-68-1Gu">
+                                            <connections>
+                                                <segue destination="SXB-8r-cLh" kind="show" id="fvA-72-yLb"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7zy-jI-uqb">
+                                <rect key="frame" x="0.0" y="418" width="362" height="44"/>
+                                <items>
+                                    <navigationItem title="สัญลักษณะประจำมหาวิทยาลัยมหาสารคาม" id="pUf-f7-au3">
+                                        <barButtonItem key="rightBarButtonItem" title="ดู" id="PRI-zp-Jpi">
+                                            <connections>
+                                                <segue destination="gsg-ug-gIG" kind="show" id="UZJ-nZ-WvK"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YB5-cp-5NT">
+                                <rect key="frame" x="13" y="471" width="349" height="44"/>
+                                <items>
+                                    <navigationItem title="อันดับมหาลัย" id="mq2-1y-BLc">
+                                        <barButtonItem key="rightBarButtonItem" title="ดู" id="m02-yZ-Lwe">
+                                            <connections>
+                                                <segue destination="CmE-sl-e7B" kind="show" id="hvx-GU-daA"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="d6x-2n-X7z"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1053" y="415"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zoK-pl-iSM">
+            <objects>
+                <viewController id="SXB-8r-cLh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V1Q-yp-FTr"/>
+                        <viewControllerLayoutGuide type="bottom" id="XwC-E9-v98"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ioI-fZ-WmV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w6L-J7-vRU">
+                                <rect key="frame" x="43" y="220" width="514" height="288"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">ประวัติ
+        มหาวิทยาลัยมหาสารคาม มีศูนย์กลางการบริหารงานตั้งอยู่ที่ ตำบลขามเรียง อำเภอกันทรวิชัย จังหวัดมหาสารคาม มีพื้นที่ประมาณ 1,300 ไร่ ที่ตั้งเดิม ซึ่งตั้งอยู่ที่ 269 ถนนนครสวรรค์ ตำบลตลาด อำเภอเมือง จังหวัดมหาสารคาม บนพื้นที่ 197 ไร่ มหาวิทยาลัยมหาสารคาม มีกำเนิดมาจากวิทยาลัยวิชาการศึกษามหาสารคาม ซึ่งตั้งขึ้นเมื่อ วันที่ 27 มีนาคม พ.ศ. 2511 โดยมีจุดมุ่งหมายเพื่อที่จะขยายการศึกษาชั้นสูงไปสู่ภูมิภาค ต่อมาได้รับการยกฐานะขึ้นเป็นมหาวิทยาลัยศรีนครินทรวิโรฒ มหาสารคาม เมื่อปีพุทธศักราช 2517 และได้แยกตัวเป็นมหาวิทยาลัยเอกเทศภายใต้ชื่อ “มหาวิทยาลัยมหาสารคาม” เมื่อวันที่ 9 ธันวาคม พ.ศ. 2537 โดยพระบาทสมเด็จพระเจ้าอยู่หัวทรงลงพระปรมาภิไธยในพระราชบัญญัติ ของมหาวิทยาลัย ซึ่งได้มีการประกาศในราชกิจจานุเบกษาเล่มที่ 111 ตอนที่ 54 ก นับเป็นมหาวิทยาลัยของรัฐแห่งที่ 22 ของ ประเทศไทย</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="haS-bX-Q53">
+                                <rect key="frame" x="70" y="20" width="429" height="183"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="back" width="41" id="pRe-jW-gdz">
+                            <connections>
+                                <segue destination="vXZ-lx-hvc" kind="show" id="n6x-Pv-gdS"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem id="DTG-x3-FOe"/>
+                    </toolbarItems>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pf7-aq-1et" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1806" y="415"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Z0D-SH-92Y">
+            <objects>
+                <viewController id="gsg-ug-gIG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kqu-PT-CrV"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qvq-4c-jbJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="g0Z-A6-nhm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vrN-QK-bzx">
+                                <rect key="frame" x="0.0" y="211" width="600" height="622"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <mutableString key="text">     อันดับมหาวิทยาลัย
+             การจัดอันดับโดย เว็บโอเมตริกซ์ (Webometrics) ซึ่งจัดทำขึ้นเพื่อแสดงความตั้งใจของสถาบันต่าง ๆ ในการเผยแพร่ความรู้สู่เว็บไซต์ และเป็นความริเริ่มเพื่อส่งเสริมการเข้าถึงความรู้อย่างเปิดกว้าง (Open Access) ทั่วโลก โดยบ่งบอกถึงปริมาณและคุณภาพของสิ่งตีพิมพ์อิเล็กทรอนิกส์ของสถาบัน เพื่อใช้ร่วมกับตัวชี้วัดอื่น ๆ ในการประเมินผลงานวิจัยของสถาบัน ซึ่งทางเว็บโอเมตริกซ์ได้จัดอันดับปีละ 2 ครั้งในเดือนมกราคม และกรกฎาคม ล่าสุดเดือนกรกฎาคม พ.ศ. 2554 มหาวิทยาลัยมหาสารคาม อยู่ในอันดับที่ 1,101 ของโลก อันดับที่ 26 ของเอเชียตะวันออกเฉียงใต้ อันดับที่ 13 ของมหาวิทยาลัยในประเทศไทย</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yco-Zs-RNg">
+                                <rect key="frame" x="170" y="36" width="293" height="157"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="back" id="FEF-Si-p0P">
+                            <connections>
+                                <segue destination="vXZ-lx-hvc" kind="show" id="qBb-9r-Yuo"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nWF-G9-5Tp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902" y="1382"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="FsU-zl-r0A">
+            <objects>
+                <viewController id="CmE-sl-e7B" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="17K-ZO-TVs"/>
+                        <viewControllerLayoutGuide type="bottom" id="HCp-m7-DlW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="v3Y-jK-K2P">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="150px-Happy_wishu.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Xze-gR-TZn">
+                                <rect key="frame" x="169" y="20" width="240" height="168"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="31" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cu2-f2-QOI">
+                                <rect key="frame" x="16" y="152" width="508" height="364"/>
+                                <mutableString key="text">ราชพฤกษ์
+ตราประจำมหาวิทยาลัยมหาสารคาม คือ ตราโรจนากร ซึ่งมีความหมายว่า สัญลักษณ์แห่งความเจริญรุ่งเรือง ซึ่งมีองค์ประกอบเป็นรูปใบเสมา
+ภายในมีภาพขององค์พระธาตุนาดูน ด้านล่างเป็นสุริยรังสีที่แผ่ขึ้นจากผ้าลายขิตซึ่งอยู่เหนือคำขวัญภาษาบาลี
+” พหูนํ ปณฺฑิโต ชีเว ” หมายความว่า ผู้มีปัญญาพึงเป็นอยู่เพื่อมหาชน
+ใบเสมา หมายถึง ภูมิปัญญา
+พระธาตุนาดูน หมายถึง คุณธรรมความดี
+สุริยรังสี หมายถึง ความเจริญรุ่งเรือง
+ลายขิต หมายถึง ภูมิปัญญาและมรดกทางวัฒนธรรมแห่งอีสาน
+ความหมายโดยรวม คือ ความเจริญรุ่งเรืองอันเป็นผลจากความรู้และคุณธรรม ผสมผสานกับภูมิปัญญาแห่งท้องถิ่นอีสาน
+ต้นไม้ประจำมหาวิทยาลัย ต้นราชพฤกษ์ หรือ ต้นคูณ
+สีประจำมหาวิทยาลัย คือ สีเหลือง – เทา
+สีเหลือง หมายถึง ความเจริญรุ่งเรือง ความดีงาม ความอุดมสมบูรณ์
+สีเทา หมายถึง ความคิด หรือ ปัญญา
+สีเหลือง – เทา จึงหมายถึง การมีปัญญาและความคิดที่ดีงาม อันนำไปสู่ความเจริญรุ่งเรือง</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem title="back" id="RhN-fX-Vpe">
+                            <connections>
+                                <segue destination="vXZ-lx-hvc" kind="show" id="rB7-MP-xZs"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CiA-4v-w0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="1177"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gkL-OI-2Yg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Lta-je-ePz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QvT-KS-6xR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="FmF-Z7-CLL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xnb-it-JqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="415"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="150px-Happy_wishu.jpg" width="150" height="200"/>
+        <image name="2.jpg" width="275" height="183"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="qBb-9r-Yuo"/>
+    </inferredMetricsTieBreakers>
+</document>

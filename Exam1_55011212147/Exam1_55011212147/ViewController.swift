@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         var  p = Int((poin.text as NSString).integerValue)
         var f1 = Int((final1.text as  NSString).integerValue)
         var f2 = Double((final2.text as NSString).doubleValue)
+       
 }
     func cal(sum5:Double){
             

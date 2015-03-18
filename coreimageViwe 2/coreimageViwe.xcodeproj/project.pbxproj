@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD6C6EF91AB95A02006E4E79 /* imag.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FD6C6EF81AB95A02006E4E79 /* imag.jpg */; };
 		FD936DFE1A971310000C0107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD936DFD1A971310000C0107 /* AppDelegate.swift */; };
 		FD936E001A971310000C0107 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD936DFF1A971310000C0107 /* ViewController.swift */; };
 		FD936E031A971310000C0107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD936E011A971310000C0107 /* Main.storyboard */; };
 		FD936E051A971310000C0107 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD936E041A971310000C0107 /* Images.xcassets */; };
 		FD936E081A971310000C0107 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD936E061A971310000C0107 /* LaunchScreen.xib */; };
 		FD936E141A971310000C0107 /* coreimageViweTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD936E131A971310000C0107 /* coreimageViweTests.swift */; };
-		FD99E3EC1A973D3B0008D82A /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FD99E3EB1A973D3B0008D82A /* image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD6C6EF81AB95A02006E4E79 /* imag.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imag.jpg; sourceTree = "<group>"; };
 		FD936DF81A971310000C0107 /* coreimageViwe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreimageViwe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD936DFC1A971310000C0107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD936DFD1A971310000C0107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		FD936E0D1A971310000C0107 /* coreimageViweTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreimageViweTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD936E121A971310000C0107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD936E131A971310000C0107 /* coreimageViweTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coreimageViweTests.swift; sourceTree = "<group>"; };
-		FD99E3EB1A973D3B0008D82A /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 		FD936DFB1A971310000C0107 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD99E3EB1A973D3B0008D82A /* image.png */,
+				FD6C6EF81AB95A02006E4E79 /* imag.jpg */,
 				FD936DFC1A971310000C0107 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -196,8 +196,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD936E031A971310000C0107 /* Main.storyboard in Resources */,
+				FD6C6EF91AB95A02006E4E79 /* imag.jpg in Resources */,
 				FD936E081A971310000C0107 /* LaunchScreen.xib in Resources */,
-				FD99E3EC1A973D3B0008D82A /* image.png in Resources */,
 				FD936E051A971310000C0107 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
